@@ -26,7 +26,7 @@ app.use('/users', usersRouter);
 
 const port = process.env.PORT || 3000
 
-console.log('The value of PORT is:', process.env.PORT);
+//console.log('The value of PORT is:', process.env.PORT);
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
 
